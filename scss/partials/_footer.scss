@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    flex-wrap: wrap;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    .copy {
+        color: dimgray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

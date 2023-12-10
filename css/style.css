@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aqua;
+}
+
+.main-inicio {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 450px);
+  grid-template-areas: "Area1 Area2" "Area3 Area4" "Area5 Area6" "Area7 Area8" "Area9 Area10" "Area11 Area12" "Area13 Area14" "Area15 Area16";
+}
+.main-inicio .Area {
+  border-top: 1px solid rgb(148, 146, 146);
+  /* Para que las imagenes no se desborden del div */
+}
+.main-inicio .Area .img-inicio {
+  width: 99%;
+  height: 99%;
+}
+.main-inicio #Area1 {
+  grid-area: Area1;
+}
+.main-inicio #Area2 {
+  grid-area: Area2;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area3 {
+  grid-area: Area3;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area4 {
+  grid-area: Area4;
+}
+.main-inicio #Area5 {
+  grid-area: Area5;
+}
+.main-inicio #Area6 {
+  grid-area: Area6;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area7 {
+  grid-area: Area7;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area8 {
+  grid-area: Area8;
+}
+.main-inicio #Area9 {
+  grid-area: Area9;
+}
+.main-inicio #Area10 {
+  grid-area: Area10;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area11 {
+  grid-area: Area11;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area12 {
+  grid-area: Area12;
+}
+.main-inicio #Area13 {
+  grid-area: Area13;
+}
+.main-inicio #Area14 {
+  grid-area: Area14;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area15 {
+  grid-area: Area15;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-inicio #Area16 {
+  grid-area: Area16;
+}
+
+.main-generos {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  gap: 2px;
+  grid-template-areas: "Area1 Area2 Area3 Area4" "Area1 Area5 Area6 Area7" "Area1 Area8 Area9 Area10";
+}
+.main-generos .Area {
+  border: 1px solid rgb(77, 76, 76);
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+  /* Para que las imagenes no se desborden del div */
+}
+.main-generos .Area:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.521);
+}
+.main-generos .Area .img {
+  width: 100%;
+  height: 100%;
+}
+.main-generos #Area1 {
+  color: black;
+  background-color: #ff5733;
+  grid-area: Area1;
+  /*Para activar cada area*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.main-generos #Area2 {
+  background-color: #33ff57;
+  grid-area: Area2;
+}
+.main-generos #Area3 {
+  background-color: #33b5ff;
+  grid-area: Area3;
+}
+.main-generos #Area4 {
+  background-color: #ffd633;
+  grid-area: Area4;
+}
+.main-generos #Area5 {
+  background-color: #ff5733;
+  grid-area: Area5;
+}
+.main-generos #Area6 {
+  background-color: #33ff96;
+  grid-area: Area6;
+}
+.main-generos #Area7 {
+  background-color: #ff336f;
+  grid-area: Area7;
+}
+.main-generos #Area8 {
+  background-color: #33ffaf;
+  grid-area: Area8;
+}
+.main-generos #Area9 {
+  background-color: #ff5733;
+  grid-area: Area9;
+}
+
+main.Artistas {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main.Artistas section.Artistas {
+  margin: 5px;
+}
+main.Artistas section.Artistas div.Artistas {
+  width: 19rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+main.Artistas section.Artistas div.Artistas img.Artistas {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+main.Artistas section.Artistas div.Artistas h3.Artistas {
+  text-align: center;
+  font-size: large;
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main.Artistas section.Artistas div.Artistas p.Artistas {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+
+main.contactos section.container {
+  margin-top: 2%;
+}
+main.contactos section.container .img-carrusel {
+  width: 100%;
+  height: 100%;
+}
+main.contactos section.container h5 {
+  color: black;
+}
+main.contactos section.container h1.contactos {
+  margin-top: 50%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+main.contactos section.container .my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: wobble;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s;
+  /* don't forget to set a duration! */
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  flex-wrap: wrap;
+  left: 0px;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+footer .copy {
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Media Query */
+@media (max-width: 320px) {
+  .main-generos {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 2px;
+    grid-template-areas: "Area1 Area2" "Area1 Area3" "Area1 Area4" "Area1 Area5" "Area1 Area6" "Area1 Area7" "Area1 Area8" "Area1 Area9";
+  }
+  .main-inicio {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 450px);
+    grid-template-areas: "Area1" "Area2" "Area4" "Area3" "Area5" "Area6" "Area8" "Area7" "Area9" "Area10" "Area12" "Area11" "Area13" "Area14" "Area16" "Area15";
+  }
+}
+/* Media Query */
+@media (max-width: 768px) {
+  .main-generos {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 2px;
+    grid-template-areas: "Area1 Area2 Area3 " "Area1 Area4 Area5 " "Area1 Area6 Area7 " "Area1 Area8 Area9 ";
+  }
+  .main-inicio {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 450px);
+    grid-template-areas: "Area1" "Area2" "Area4" "Area3" "Area5" "Area6" "Area8" "Area7" "Area9" "Area10" "Area12" "Area11" "Area13" "Area14" "Area16" "Area15";
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

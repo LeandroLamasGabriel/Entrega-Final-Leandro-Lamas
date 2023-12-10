@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "partials/header";
+@import "partials/mainInicio";
+@import "partials/mainGeneros";
+@import "partials/mainArtistas";
+@import "partials/mainContactos";
+@import "partials/footer";
+@import "partials/mixins";
+
+// Media query para ajustar a cada dispositivo
+@include media_query_generos_320() {
+    .main-generos {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        gap: 2px;
+        grid-template-areas:
+            "Area1 Area2"
+            "Area1 Area3"
+            "Area1 Area4"
+            "Area1 Area5"
+            "Area1 Area6"
+            "Area1 Area7"
+            "Area1 Area8"
+            "Area1 Area9"
+        ;
+    }
+    // Pagina principal
+    .main-inicio {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 450px);
+        grid-template-areas:
+            "Area1" 
+            "Area2"
+            "Area4" 
+            "Area3"
+            "Area5" 
+            "Area6"
+            "Area8" 
+            "Area7"
+            "Area9" 
+            "Area10"
+            "Area12" 
+            "Area11"
+            "Area13" 
+            "Area14"
+            "Area16" 
+            "Area15"
+        ;
+    }
+
+}
+
+@include media_query_generos_768() {
+    .main-generos {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        gap: 2px;
+        grid-template-areas:
+            "Area1 Area2 Area3 "
+            "Area1 Area4 Area5 "
+            "Area1 Area6 Area7 "
+            "Area1 Area8 Area9 "
+        ;
+    }
+    // Pagina principal
+    .main-inicio {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 450px);
+        grid-template-areas:
+            "Area1" 
+            "Area2"
+            "Area4" 
+            "Area3"
+            "Area5" 
+            "Area6"
+            "Area8" 
+            "Area7"
+            "Area9" 
+            "Area10"
+            "Area12" 
+            "Area11"
+            "Area13" 
+            "Area14"
+            "Area16" 
+            "Area15"
+        ;
+    }
+}
