@@ -11,113 +11,253 @@ header {
 .main-inicio {
   margin: 5px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 450px);
-  grid-template-areas: "Area1 Area2" "Area3 Area4" "Area5 Area6" "Area7 Area8" "Area9 Area10" "Area11 Area12" "Area13 Area14" "Area15 Area16";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 200px);
+  grid-template-areas: "Area1 Area2 Area3 Area4" "Area5 Area6 Area7 Area8" "Area9 Area10 Area11 Area12" "Area13 Area14 Area15 Area16";
 }
 .main-inicio .Area {
-  border-top: 1px solid rgb(148, 146, 146);
+  border: 1px solid rgb(148, 146, 146);
   /* Para que las imagenes no se desborden del div */
 }
 .main-inicio .Area .img-inicio {
-  width: 99%;
-  height: 99%;
+  width: 100%;
+  height: 100%;
 }
 .main-inicio #Area1 {
   grid-area: Area1;
+  margin-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area1 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area2 {
   grid-area: Area2;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area2 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area3 {
   grid-area: Area3;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area3 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area4 {
   grid-area: Area4;
+  margin-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area4 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area5 {
   grid-area: Area5;
+  border-top: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-right: 10px;
+}
+.main-inicio #Area5 button {
+  margin-top: 5px;
+}
+.main-inicio #Area5 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area6 {
   grid-area: Area6;
+  border-top: none;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  font-size: small;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+}
+.main-inicio #Area6 button {
+  margin-top: 5px;
+}
+.main-inicio #Area6 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area7 {
   grid-area: Area7;
+  border-top: none;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  font-size: small;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+}
+.main-inicio #Area7 button {
+  margin-top: 5px;
+}
+.main-inicio #Area7 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area8 {
   grid-area: Area8;
+  border-top: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-right: 10px;
+}
+.main-inicio #Area8 button {
+  margin-top: 5px;
+}
+.main-inicio #Area8 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area9 {
   grid-area: Area9;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area9 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area10 {
   grid-area: Area10;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area10 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area11 {
   grid-area: Area11;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area11 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area12 {
   grid-area: Area12;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-inicio #Area12 .img-inicio {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .main-inicio #Area13 {
   grid-area: Area13;
+  border-top: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-right: 10px;
+}
+.main-inicio #Area13 button {
+  margin-top: 5px;
+}
+.main-inicio #Area13 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area14 {
   grid-area: Area14;
+  border-top: none;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  font-size: small;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+}
+.main-inicio #Area14 button {
+  margin-top: 5px;
+}
+.main-inicio #Area14 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area15 {
   grid-area: Area15;
+  border-top: none;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  font-size: small;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  margin-right: 10px;
+}
+.main-inicio #Area15 button {
+  margin-top: 5px;
+}
+.main-inicio #Area15 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 .main-inicio #Area16 {
   grid-area: Area16;
+  border-top: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: center;
+  margin-right: 10px;
+}
+.main-inicio #Area16 button {
+  margin-top: 5px;
+}
+.main-inicio #Area16 button:hover {
+  background-color: rgb(30, 255, 30);
+  border-color: rgb(30, 255, 30);
+  color: black;
+  height: 40px;
+  width: 110px;
 }
 
 .main-generos {
@@ -269,9 +409,9 @@ footer .copy {
   .main-inicio {
     margin: 5px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 450px);
-    grid-template-areas: "Area1" "Area2" "Area4" "Area3" "Area5" "Area6" "Area8" "Area7" "Area9" "Area10" "Area12" "Area11" "Area13" "Area14" "Area16" "Area15";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(16, 200px);
+    grid-template-areas: "Area1" "Area5" "Area2" "Area6" "Area3" "Area7" "Area4" "Area8" "Area9" "Area13" "Area10" "Area14" "Area11" "Area15" "Area12" "Area16";
   }
 }
 /* Media Query */
@@ -287,9 +427,9 @@ footer .copy {
   .main-inicio {
     margin: 5px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 450px);
-    grid-template-areas: "Area1" "Area2" "Area4" "Area3" "Area5" "Area6" "Area8" "Area7" "Area9" "Area10" "Area12" "Area11" "Area13" "Area14" "Area16" "Area15";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas: "Area1 Area2" "Area5 Area6" "Area3 Area4" "Area7 Area8" "Area9 Area10" "Area13 Area14" "Area11 Area12" "Area15 Area16";
   }
 }
 

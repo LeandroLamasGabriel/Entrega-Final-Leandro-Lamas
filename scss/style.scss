@@ -34,25 +34,25 @@
     .main-inicio {
         margin: 5px;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 450px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(16, 200px);
         grid-template-areas:
-            "Area1" 
-            "Area2"
-            "Area4" 
-            "Area3"
-            "Area5" 
-            "Area6"
-            "Area8" 
-            "Area7"
-            "Area9" 
-            "Area10"
-            "Area12" 
-            "Area11"
-            "Area13" 
-            "Area14"
-            "Area16" 
-            "Area15"
+        "Area1"  
+        "Area5"
+        "Area2" 
+        "Area6"
+        "Area3" 
+        "Area7"
+        "Area4" 
+        "Area8"
+        "Area9" 
+        "Area13"
+        "Area10" 
+        "Area14"
+        "Area11" 
+        "Area15"
+        "Area12" 
+        "Area16"
         ;
     }
 
@@ -76,25 +76,17 @@
     .main-inicio {
         margin: 5px;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 450px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);
         grid-template-areas:
-            "Area1" 
-            "Area2"
-            "Area4" 
-            "Area3"
-            "Area5" 
-            "Area6"
-            "Area8" 
-            "Area7"
-            "Area9" 
-            "Area10"
-            "Area12" 
-            "Area11"
-            "Area13" 
-            "Area14"
-            "Area16" 
-            "Area15"
+            "Area1 Area2" 
+            "Area5 Area6"
+            "Area3 Area4"
+            "Area7 Area8"
+            "Area9 Area10" 
+            "Area13 Area14"
+            "Area11 Area12"
+            "Area15 Area16"
         ;
     }
 }
